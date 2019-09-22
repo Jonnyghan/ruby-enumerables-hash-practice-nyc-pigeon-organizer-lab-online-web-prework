@@ -1,5 +1,5 @@
-def nyc_pigeon_organizer(data)
-  pigeon_data = {
+require 'pry'
+pigeon_data = {
         :color => {
           :purple => ["Theo", "Peter Jr.", "Lucky"],
           :grey => ["Theo", "Peter Jr.", "Ms. K"],
@@ -17,4 +17,8 @@ def nyc_pigeon_organizer(data)
           "City Hall" => ["Andrew"]
         }
       }
+
+def nyc_pigeon_organizer(data)
+  
+  
 end
