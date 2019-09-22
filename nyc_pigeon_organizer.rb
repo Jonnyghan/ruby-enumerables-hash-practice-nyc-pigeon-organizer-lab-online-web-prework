@@ -23,8 +23,12 @@ def nyc_pigeon_organizer(data)
   data.each do |info, value|
     value.each do |stats, all_names|
       all_names.each do |names|
-        if pigeon_list[name]
-    
+        if pigeon_list[name]== nil 
+          pigeon_list ={}
+          binding.pry
+    end
+  end
+end
     binding.pry
   
 end
