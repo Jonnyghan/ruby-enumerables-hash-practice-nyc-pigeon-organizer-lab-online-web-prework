@@ -26,10 +26,8 @@ def nyc_pigeon_organizer(data)
         if pigeon_list[name]== nil 
           pigeon_list ={}
           binding.pry
-    end
+      
     end
   end
-end
-    
-  
+ end
 end
